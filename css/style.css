@@ -3,3 +3,39 @@ body{
     padding: 0;
     border: 0;
 }
+
+.nextPage{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+}
+
+.previousPage {
+    position: fixed;
+    top: 10px;
+    left: 10px;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+}
+
+.circulo {
+    width: 36px;
+    height: 36px;
+    background-color: #e0e0e0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrow {
+    width: 24px;
+    height: 24px;
+
+}

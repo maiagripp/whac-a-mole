@@ -1,0 +1,19 @@
+.regras{
+    height: 100vh;
+    display: flex;
+    background-color: #d0d0d0;
+}
+
+.regras .contentBox{
+    width: 100%;
+    padding: 50px;
+    background-color: #c0c0c0;
+}
+
+.regras .imgBox{
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../imagens/Mole.png);
+}
