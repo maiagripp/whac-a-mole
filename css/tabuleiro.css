@@ -49,3 +49,33 @@
     font-size: 36px;
     border: 1px solid #000;
 }
+
+@media (max-width:991px){
+    .tabuleiro {
+        flex-direction: column-reverse;
+        height: 100%;
+    }
+
+    .gramado{
+        width: 400px;
+        height: 400px;
+    }
+
+    .gramado img {
+        padding: 10px 30px 10px 30px;
+    }
+
+    .pontos{
+        width: 400px;
+        height: 400px;
+    }
+
+    .pontos th {
+        font-size: 30px;
+    }
+
+    .pontos td:first-child {
+        font-size: 20px;
+    }
+
+}

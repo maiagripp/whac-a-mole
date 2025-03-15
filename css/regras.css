@@ -5,7 +5,7 @@
 }
 
 .regras .contentBox{
-    width: 100%;
+    width: unset;
     padding: 50px;
     background-color: #c0c0c0;
 }
@@ -16,4 +16,14 @@
     background-position: center;
     background-repeat: no-repeat;
     background-image: url(../imagens/Mole.png);
+}
+
+@media (max-width:991px){
+    .regras{
+        flex-direction: column;
+    }
+
+    .regras .imgBox{
+        height: 100%;
+    }
 }

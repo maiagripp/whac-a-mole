@@ -5,3 +5,41 @@
     justify-content: center;
 }
 
+.recordes th {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    font-size: 36px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.recordes td {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 30px;
+}
+
+.recordes tr:nth-child(even){
+    background-color: #c0c0c0;
+}
+
+.recordes td:first-child td:nth-child(3){
+    text-align: right;
+}
+
+@media (max-width:991px){
+    .recordes tr th{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .recordes th{
+        font-size: 18px;
+    }
+
+    .recordes td{
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 15px;
+    }
+}
