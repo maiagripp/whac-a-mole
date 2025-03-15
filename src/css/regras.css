@@ -15,7 +15,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url(../imagens/Mole.png);
+    background-image: url(../../imagens/Mole.png);
 }
 
 @media (max-width:991px){
